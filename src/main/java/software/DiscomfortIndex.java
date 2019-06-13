@@ -33,7 +33,7 @@ public class DiscomfortIndex {
 
             String urlstr = "http://api.openweathermap.org/data/2.5/weather?"
                     + "lat=" + lat + "&lon=" + lon
-                    + "&appid=06acfc7b92c7784a003147914cf89b25";
+                    + "&appid=OpenWeatherAPIKey";
             URL url = new URL(urlstr);
             BufferedReader bf;
             String line;
